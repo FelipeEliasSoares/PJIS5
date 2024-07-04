@@ -1,53 +1,66 @@
-# Plataforma de Gerenciamento de Equipes de Funcionários
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-Este projeto consiste na criação de uma plataforma web dedicada ao gerenciamento eficiente de equipes de funcionários, especialmente direcionada para pequenas e médias empresas. A plataforma visa facilitar diversas atividades relacionadas à gestão de equipes, incluindo agendamento de reuniões, controle de presença, monitoramento de produtividade e geração de relatórios analíticos.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## Problema e Objetivo
+## About Laravel
 
-**Problemática Escolhida:** 
-Pequenas e médias empresas frequentemente enfrentam dificuldades ao gerenciar sua equipe de funcionários de forma eficiente, o que pode impactar diretamente na produtividade e no desempenho organizacional.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-**Objetivo Geral:** 
-Desenvolver uma plataforma web intuitiva e de fácil utilização para gerenciar equipes de funcionários, visando melhorar a produtividade das empresas.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## Objetivos Específicos
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-1. Realizar um levantamento das principais necessidades e desafios das empresas na gestão de seus funcionários.
-2. Criar uma interface web responsiva e de fácil navegação para o cadastro e gerenciamento de perfis de funcionários.
-3. Implementar agendamento de reuniões online, com recursos de sincronização de agenda compartilhada.
-4. Desenvolver um sistema de controle de presença e monitoramento da produtividade dos funcionários, utilizando metodologias Ágeis.
-5. Oferecer recursos de geração de relatórios e análises sobre o desempenho da equipe e da empresa.
+## Learning Laravel
 
-## Requisitos
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-- Desenvolver layout responsivo e de fácil navegação para a plataforma web.
-- Criar perfis de funcionários com informações relevantes para a gestão.
-- Implementar funcionalidades de agendamento, realização e gravação de reuniões online.
-- Incorporar sistema de controle de presença e monitoramento de produtividade (metodologias Ágeis).
-- Oferecer geração de relatórios e análises sobre o desempenho da equipe e da empresa.
-- Garantir segurança e privacidade no tratamento de dados dos funcionários.
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-## Metodologia de Gestão de Projetos
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-A metodologia de gestão de projetos utilizada será definida conforme as necessidades e características do projeto.
+## Laravel Sponsors
 
-## Resultados Esperados
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-- Plataforma web intuitiva e de fácil utilização para gerenciamento de equipes de funcionários.
-- Aumento na produtividade das empresas participantes.
-- Melhoria na comunicação e colaboração entre os membros da equipe.
-- Redução do tempo gasto com a coordenação e realização de reuniões.
-- Maior satisfação dos funcionários com a transparência e eficiência da gestão.
-- Fortalecimento da cultura organizacional e engajamento da equipe.
+### Premium Partners
 
-## Cronograma
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
 
-O projeto será dividido em etapas, conforme detalhado a seguir:
+## Contributing
 
-1. **Planejamento e Configuração Inicial**
-2. **Design e Prototipagem**
-3. **Desenvolvimento Básico**
-4. **Desenvolvimento Avançado e Integração Inicial**
-5. **Integração Completa e Testes**
-6. **Refinamento e Ajustes Finais**
-7. **Implantação e Documentação**
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
