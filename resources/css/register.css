@@ -1,0 +1,51 @@
+
+    body {
+        background-color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        font-size: 24px;
+        color: #333;
+    }
+    .form-control {
+        border: none;
+        border-radius: 4px;
+        background-color: #f7f7f7;
+        padding: 10px;
+    }
+    .form-control:focus {
+        box-shadow: none;
+        background-color: #f0f0f0;
+    }
+    .btn-primary {
+        background-color: #6c63ff;
+        border: none;
+        border-radius: 4px;
+    }
+    .btn-primary:hover {
+        background-color: #5a52d5;
+    }
+    .btn-outline-primary {
+        color: #6c63ff;
+        border-color: #6c63ff;
+    }
+    .btn-outline-primary:hover {
+        background-color: #6c63ff;
+        color: #ffffff;
+    }
+    a {
+        color: #6c63ff;
+    }
+    a:hover {
+        color: #5a52d5;
+    }
+    .text-muted {
+        color: #888 !important;
+    }
+    .progress {
+        height: 5px;
+    }
+    .progress-bar {
+        background-color: #6c63ff;
+    }
+
