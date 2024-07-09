@@ -26,7 +26,7 @@
                         <!-- Campos do formulário de empresa -->
                         <div class="progress mb-3">
                             <div id="companyProgress" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>  
+                        </div>
 
                         <x-label for="company_nome" value="{{ __('Nome da Empresa') }}" />
                         <x-input id="company_nome" class="form-control mb-3" type="text" name="nome" :value="old('nome')" required />
@@ -79,7 +79,7 @@
                             <div id="memberProgress" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <!-- Campos do formulário de membro -->
-                    
+
                         <x-label for="member_cargo" value="{{ __('Cargo') }}" />
                         <x-input id="member_cargo" class="form-control mb-3" type="text" name="cargo" :value="old('cargo')" required />
 
@@ -136,7 +136,7 @@
         </div>
 
         <!-- Lado direito - Imagem -->
-        <div class="col-md-6 d-none d-md-block" style="background: url('resources/img/images.jpeg') center/cover no-repeat;">
+        <div class="col-md-6 d-none d-md-block" style="background: url('{{ asset('img/images.jpeg') }}') center/cover no-repeat;">
         </div>
     </div>
 </div>

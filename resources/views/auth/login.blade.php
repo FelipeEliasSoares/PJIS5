@@ -56,7 +56,7 @@
             </div>
 
             <!-- Right side - Image -->
-            <div class="col-md-6 d-none d-md-block" id="right_side_mage" style="background-color: #333;">
+            <div class="col-md-6 d-none d-md-block" style="background: url('{{ asset('img/images.jpeg') }}') center/cover no-repeat;">
                 
             </div>
         </div>
