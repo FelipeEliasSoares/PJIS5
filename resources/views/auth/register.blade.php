@@ -26,10 +26,7 @@
                         <!-- Campos do formulário de empresa -->
                         <div class="progress mb-3">
                             <div id="companyProgress" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-
-                        <x-label for="company_codigo" value="{{ __('Código') }}" />
-                        <x-input id="company_codigo" class="form-control mb-3" type="text" name="codigo" :value="old('codigo')" required />
+                        </div>  
 
                         <x-label for="company_nome" value="{{ __('Nome da Empresa') }}" />
                         <x-input id="company_nome" class="form-control mb-3" type="text" name="nome" :value="old('nome')" required />
@@ -82,9 +79,7 @@
                             <div id="memberProgress" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <!-- Campos do formulário de membro -->
-                        <x-label for="member_codigo" value="{{ __('Código') }}" />
-                        <x-input id="member_codigo" class="form-control mb-3" type="text" name="codigo" :value="old('codigo')" required />
-
+                    
                         <x-label for="member_cargo" value="{{ __('Cargo') }}" />
                         <x-input id="member_cargo" class="form-control mb-3" type="text" name="cargo" :value="old('cargo')" required />
 
@@ -120,9 +115,6 @@
 
                         <x-label for="member_cep" value="{{ __('CEP') }}" />
                         <x-input id="member_cep" class="form-control mb-3" type="text" name="cep" :value="old('cep')" required />
-
-                        <x-label for="member_departamento" value="{{ __('Departamento') }}" />
-                        <x-input id="member_departamento" class="form-control mb-3" type="text" name="departamento" :value="old('departamento')" required />
 
                         <x-label for="member_password" value="{{ __('Senha') }}" />
                         <x-input id="member_password" class="form-control mb-3" type="password" name="password" required />
