@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1A2130;
+    color: #FDFFE2;
+}
+.btn-primary {
+    background-color: #5A72A0;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #83B4FF;
+}
+.card {
+    background-color: #262F3D;
+    border: none;
+    color: #FDFFE2;
+}
+.modal-content {
+    background-color: #262F3D;
+    color: #FDFFE2;
+}
+.modal-header, .modal-footer {
+    border: none;
+}
+.form-control {
+    background-color: #1A2130;
+    border: 1px solid #5A72A0;
+    color: #FDFFE2;
+}
+.form-control:focus {
+    background-color: #1A2130;
+    border-color: #83B4FF;
+    color: #FDFFE2;
+}
+.card-title, .card-subtitle, .display-4, .h2, .h5, .h6 {
+    color: #83B4FF;
+}
+.badge {
+    color: #FDFFE2;
+}
