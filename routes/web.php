@@ -1,17 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\MemberController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProjectController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Existentes
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
+// Novas
+Route::get('/register/company', [CompanyController::class, 'create'])->name('register.company');
+Route::post('/register/company', [CompanyController::class, 'store']);
+
+Route::get('/register/member', [MemberController::class, 'create'])->name('register.member');
+Route::post('/register/member', [MemberController::class, 'store']);
