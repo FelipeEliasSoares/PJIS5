@@ -5,6 +5,10 @@ use App\Http\Controllers\RegisterController;
 
 Route::get('/register', [RegisterController::class, 'index'])->name('register');
 Route::post('/register', [RegisterController::class, 'store']);
+Route::get('/notifications', 'NotificationController@index')->name('notifications.index');
+Route::post('/notifications/{notification}/accept', 'NotificationController@accept')->name('notifications.accept');
+Route::post('/notifications/{notification}/reject', 'NotificationController@reject')->name('notifications.reject');
+
 
 Route::get('/', function () {
     return view('welcome');
