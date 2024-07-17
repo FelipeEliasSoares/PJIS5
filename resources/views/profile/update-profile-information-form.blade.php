@@ -83,6 +83,21 @@
         </div>
     </x-slot>
 
+    <!-- Endereço e Status -->
+
+    <div class="col-span-6 sm:col-span-4">
+            <x-label for="endereco" value="{{ __('Endereço') }}" />
+            <x-input id="endereco" type="text" class="mt-1 block w-full" wire:model="state.endereco" required />
+            <x-input-error for="endereco" class="mt-2" />
+        </div>
+
+        <div class="col-span-6 sm:col-span-4">
+            <x-label for="status" value="{{ __('Status') }}" />
+            <x-input id="status" type="text" class="mt-1 block w-full" wire:model="state.status" required />
+            <x-input-error for="status" class="mt-2" />
+        </div>
+    </x-slot>
+
     <x-slot name="actions">
         <x-action-message class="me-3" on="saved">
             {{ __('Saved.') }}

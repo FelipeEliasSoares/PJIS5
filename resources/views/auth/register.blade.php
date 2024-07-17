@@ -29,6 +29,16 @@
                 <x-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
             </div>
 
+            <div class="mt-4">
+                <x-label for="endereco" value="{{ __('Endereço') }}" />
+                <x-input id="endereco" class="block mt-1 w-full" type="text" name="endereco" :value="old('endereco')" required />
+            </div>
+
+            <div class="mt-4">
+                <x-label for="status" value="{{ __('Status') }}" />
+                <x-input id="status" class="block mt-1 w-full" type="text" name="status" :value="old('status')" required />
+            </div>
+
             @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
                 <div class="mt-4">
                     <x-label for="terms">
