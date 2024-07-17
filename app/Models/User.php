@@ -27,7 +27,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'endereco',  
+        'endereco',
         'status',
     ];
 
@@ -64,4 +64,15 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    /**
+     * Check if the user has completed the registration process.
+     *
+     * @return bool
+     */
+    public function cadastroCompleto(): bool
+    {
+        return !empty($this->name) && !empty($this->email) && !empty($this->endereco) && !empty($this->status);
+    }
 }
+

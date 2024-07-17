@@ -52,7 +52,7 @@
                                 ]) !!}
                             </div>
                         </div>
-                    </x-label>
+                    </x-checkbox>
                 </div>
             @endif
 
@@ -68,3 +68,10 @@
         </form>
     </x-authentication-card>
 </x-guest-layout>
+
+<script>
+    history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+        history.go(1);
+    };
+</script>
